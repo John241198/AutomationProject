@@ -1,0 +1,14 @@
+2025-10-14 12:04:01 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-10-14 12:09:33 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-10-14 12:09:33 - INFO - Explicit wait completed in 0.18 seconds for element 'content'.
+2025-10-14 12:09:35 - INFO - Browser closed
+2025-10-14 12:14:56 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-10-14 12:15:06 - INFO - Explicit wait completed in 10.03 seconds for element 'content'.
+2025-10-14 12:15:08 - INFO - Browser closed
+2025-10-14 12:39:45 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-10-14 12:39:55 - INFO - Explicit wait completed in 10.06 seconds for element 'content'.
+2025-10-14 12:39:58 - INFO - Browser closed
+2025-10-14 14:44:56 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-10-14 14:45:18 - INFO - Explicit wait completed in 14.19 seconds for element 'content'.
+2025-10-14 15:04:38 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-10-14 15:05:09 - INFO - Explicit wait completed in 22.23 seconds for element 'content'.
