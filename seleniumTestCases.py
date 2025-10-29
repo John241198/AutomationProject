@@ -6,6 +6,7 @@ import helper
 import time
 import logging
 import os
+from selenium.webdriver.common.keys import Keys
 
 
 logger = logging.getLogger()
@@ -29,6 +30,7 @@ start_time = time.time()
 helper.SetExplicit(drive, timeout_s=20, element="content", expectedCondition="visibleOfElementLocated",locatorType="id")
 time.sleep(10)
 end_time = time.time()
+
 duration = round(end_time - start_time, 2)
 logging.info(f"Wait duration: {duration} seconds")
 logging.info(f"Explicit wait completed in {duration} seconds for element 'content'.")
@@ -66,20 +68,51 @@ else:raise Exception("Issue on downloading the files on menu click.")
 drive.get("https://the-internet.herokuapp.com/")
 
 #Test Case3 - Drag and Drop - need to work
-logging.info("Test Case3 - Drag and Drop")
-drive.execute_script("document.getElementsByTagName('a')[10].click()")
-helper.SetExplicit(drive, timeout_s=20, element="columns", expectedCondition="visibleOfElementLocated",locatorType="id")
-actions = ActionChains(drive)
-source_element = drive.find_element(By.ID, "column-a")
-target_element = drive.find_element(By.ID, "column-b")
-actions.click_and_hold(source_element).perform()
-time.sleep(1)
-actions.move_to_element(target_element).perform()
-time.sleep(1)
-actions.release(target_element).perform()
+# logging.info("Test Case3 - Drag and Drop")
+# drive.execute_script("document.getElementsByTagName('a')[10].click()")
+# helper.SetExplicit(drive, timeout_s=20, element="columns", expectedCondition="visibleOfElementLocated",locatorType="id")
+# actions = ActionChains(drive)
+# source_element = drive.find_element(By.ID, "column-a")
+# target_element = drive.find_element(By.ID, "column-b")
+# actions.click_and_hold(source_element).perform()
+# time.sleep(1)
+# actions.move_to_element(target_element).perform()
+# time.sleep(1)
+# actions.release(target_element).perform()
 
 #actions.drag_and_drop(source_element, target_element).perform()
+# helper.drag_and_drop_by_coordinate_offset(drive, source_id="column-a", target_id="column-b")
 time.sleep(10)
+
+
+
+#Test Case4 - Checkboxes
+logging.info("Test Case4 - Checkboxes")
+drive.execute_script("document.getElementsByTagName('a')[6].click()")
+helper.SetExplicit(drive, timeout_s=20, element="checkboxes", expectedCondition="visibleOfElementLocated",locatorType="id")
+helper.enableCheckbox(drive, chkValue=True, index=0)
+if not drive.execute_script("return document.getElementsByTagName('input')[0].checked"):
+    raise Exception("Checkboxes are not checked!")
+else:logging.info("Checkboxes 1 checked as expected!")
+helper.enableCheckbox(drive, chkValue=True, index=1)
+if not drive.execute_script("return document.getElementsByTagName('input')[1].checked"):
+    raise Exception("Checkboxes are not checked!")
+else:logging.info("Checkboxes 2 checked as expected!")
+helper.homePageReturn(drive, retriveCount=1)
+
+
+
+#Test Case4 - Key Presses
+logging.info("Test Case4 - Key Presses")
+drive.execute_script("document.getElementsByTagName('a')[31].click()")
+helper.SetExplicit(drive, timeout_s=20, element="content", expectedCondition="visibleOfElementLocated",locatorType="id")
+#target
+helper.EnterValue(drive, By.ID, "target", "sample text")
+time.sleep(10)
+ActionChains(drive).send_keys(Keys.ENTER).perform()
+exitVal = drive.execute_script("return document.getElementById('result').innerText")
+if exitVal != Keys.ENTER:
+    raise Exception("Exit value was not entered!")
 
 
 
