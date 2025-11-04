@@ -12,3 +12,161 @@
 2025-10-14 14:45:18 - INFO - Explicit wait completed in 14.19 seconds for element 'content'.
 2025-10-14 15:04:38 - INFO - Opened the website: https://the-internet.herokuapp.com/
 2025-10-14 15:05:09 - INFO - Explicit wait completed in 22.23 seconds for element 'content'.
+2025-10-30 11:05:19 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-10-30 11:05:29 - INFO - Wait duration: 10.31 seconds
+2025-10-30 11:05:29 - INFO - Explicit wait completed in 10.31 seconds for element 'content'.
+2025-10-30 11:05:29 - INFO - Test Case1 - Form Authentication
+2025-10-30 11:05:42 - INFO - Correct error validation - Your username is invalid!
+2025-10-30 11:05:54 - INFO - Successfully logged in and login message - 
+            You logged into a secure area!
+            ×
+          
+2025-10-30 11:05:55 - INFO - Successfully logged out and logout message - 
+            You logged out of the secure area!
+            ×
+          
+2025-10-30 11:05:55 - INFO - Test Case2 - JQuery UI Menus
+2025-10-30 11:06:17 - INFO - As expected file as been downloaded!
+2025-10-30 11:06:27 - INFO - Test Case4 - Checkboxes
+2025-10-30 11:06:28 - INFO - Checkboxes 1 checked as expected!
+2025-10-30 11:06:28 - INFO - Checkboxes 2 checked as expected!
+2025-10-30 11:06:28 - INFO - Test Case4 - Key Presses
+2025-10-30 11:14:19 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-10-30 11:14:29 - INFO - Wait duration: 10.09 seconds
+2025-10-30 11:14:29 - INFO - Explicit wait completed in 10.09 seconds for element 'content'.
+2025-10-30 11:14:29 - INFO - Test Case1 - Form Authentication
+2025-10-30 11:14:42 - INFO - Correct error validation - Your username is invalid!
+2025-10-30 11:14:53 - INFO - Successfully logged in and login message - 
+            You logged into a secure area!
+            ×
+          
+2025-10-30 11:14:54 - INFO - Successfully logged out and logout message - 
+            You logged out of the secure area!
+            ×
+          
+2025-10-30 11:14:55 - INFO - Test Case2 - JQuery UI Menus
+2025-10-30 11:15:15 - INFO - As expected file as been downloaded!
+2025-10-30 11:15:26 - INFO - Test Case4 - Checkboxes
+2025-10-30 11:15:27 - INFO - Checkboxes 1 checked as expected!
+2025-10-30 11:15:27 - INFO - Checkboxes 2 checked as expected!
+2025-10-30 11:15:27 - INFO - Test Case4 - Key Presses
+2025-10-30 11:32:22 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-10-30 11:32:32 - INFO - Wait duration: 10.09 seconds
+2025-10-30 11:32:32 - INFO - Explicit wait completed in 10.09 seconds for element 'content'.
+2025-10-30 11:32:32 - INFO - Test Case1 - Form Authentication
+2025-10-30 11:32:45 - INFO - Correct error validation - Your username is invalid!
+2025-10-30 11:32:57 - INFO - Successfully logged in and login message - 
+            You logged into a secure area!
+            ×
+          
+2025-10-30 11:32:58 - INFO - Successfully logged out and logout message - 
+            You logged out of the secure area!
+            ×
+          
+2025-10-30 11:32:58 - INFO - Test Case2 - JQuery UI Menus
+2025-10-30 11:33:19 - INFO - As expected file as been downloaded!
+2025-10-30 11:33:30 - INFO - Test Case4 - Checkboxes
+2025-10-30 11:33:31 - INFO - Checkboxes 1 checked as expected!
+2025-10-30 11:33:31 - INFO - Checkboxes 2 checked as expected!
+2025-10-30 11:33:31 - INFO - Test Case4 - Key Presses
+2025-10-31 09:23:34 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-10-31 09:23:44 - INFO - Wait duration: 10.13 seconds
+2025-10-31 09:23:44 - INFO - Explicit wait completed in 10.13 seconds for element 'content'.
+2025-10-31 09:23:44 - INFO - Test Case1 - Form Authentication
+2025-10-31 09:23:57 - INFO - Correct error validation - Your username is invalid!
+2025-10-31 09:24:08 - INFO - Successfully logged in and login message - 
+            You logged into a secure area!
+            ×
+          
+2025-10-31 09:24:09 - INFO - Successfully logged out and logout message - 
+            You logged out of the secure area!
+            ×
+          
+2025-10-31 09:24:09 - INFO - Test Case2 - JQuery UI Menus
+2025-10-31 09:24:29 - INFO - As expected file as been downloaded!
+2025-10-31 09:24:39 - INFO - Test Case4 - Checkboxes
+2025-10-31 09:24:40 - INFO - Checkboxes 1 checked as expected!
+2025-10-31 09:24:40 - INFO - Checkboxes 2 checked as expected!
+2025-10-31 09:24:40 - INFO - Test Case4 - Key Presses
+2025-10-31 09:26:31 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-10-31 09:26:41 - INFO - Wait duration: 10.04 seconds
+2025-10-31 09:26:41 - INFO - Explicit wait completed in 10.04 seconds for element 'content'.
+2025-10-31 09:26:41 - INFO - Test Case1 - Form Authentication
+2025-10-31 09:26:53 - INFO - Correct error validation - Your username is invalid!
+2025-10-31 09:27:04 - INFO - Successfully logged in and login message - 
+            You logged into a secure area!
+            ×
+          
+2025-10-31 09:27:05 - INFO - Successfully logged out and logout message - 
+            You logged out of the secure area!
+            ×
+          
+2025-10-31 09:27:05 - INFO - Test Case2 - JQuery UI Menus
+2025-10-31 09:27:25 - INFO - As expected file as been downloaded!
+2025-10-31 09:27:35 - INFO - Test Case4 - Checkboxes
+2025-10-31 09:27:36 - INFO - Checkboxes 1 checked as expected!
+2025-10-31 09:27:36 - INFO - Checkboxes 2 checked as expected!
+2025-10-31 09:27:36 - INFO - Test Case4 - Key Presses
+2025-10-31 09:32:21 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-10-31 09:32:31 - INFO - Wait duration: 10.05 seconds
+2025-10-31 09:32:31 - INFO - Explicit wait completed in 10.05 seconds for element 'content'.
+2025-10-31 09:32:31 - INFO - Test Case1 - Form Authentication
+2025-10-31 09:32:43 - INFO - Correct error validation - Your username is invalid!
+2025-10-31 09:32:54 - INFO - Successfully logged in and login message - 
+            You logged into a secure area!
+            ×
+          
+2025-10-31 09:32:55 - INFO - Successfully logged out and logout message - 
+            You logged out of the secure area!
+            ×
+          
+2025-10-31 09:32:56 - INFO - Test Case2 - JQuery UI Menus
+2025-10-31 09:33:15 - INFO - As expected file as been downloaded!
+2025-10-31 09:33:25 - INFO - Test Case4 - Checkboxes
+2025-10-31 09:33:26 - INFO - Checkboxes 1 checked as expected!
+2025-10-31 09:33:26 - INFO - Checkboxes 2 checked as expected!
+2025-10-31 09:33:26 - INFO - Test Case4 - Key Presses
+2025-10-31 09:36:33 - INFO - You entered: ENTER
+2025-10-31 09:36:49 - INFO - Browser closed 
+
+2025-11-03 09:29:34 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-11-03 09:29:45 - INFO - Wait duration: 10.13 seconds
+2025-11-03 09:29:45 - INFO - Explicit wait completed in 10.13 seconds for element 'content'.
+2025-11-03 09:29:45 - INFO - Test Case1 - Form Authentication
+2025-11-03 09:29:57 - INFO - Correct error validation - Your username is invalid!
+2025-11-03 09:30:08 - INFO - Successfully logged in and login message - 
+            You logged into a secure area!
+            ×
+          
+2025-11-03 09:30:09 - INFO - Successfully logged out and logout message - 
+            You logged out of the secure area!
+            ×
+          
+2025-11-03 09:30:09 - INFO - Test Case2 - JQuery UI Menus
+2025-11-03 09:30:29 - INFO - As expected file as been downloaded!
+2025-11-03 09:30:39 - INFO - Test Case4 - Checkboxes
+2025-11-03 09:30:39 - INFO - Checkboxes 1 checked as expected!
+2025-11-03 09:30:40 - INFO - Checkboxes 2 checked as expected!
+2025-11-03 09:31:11 - INFO - Test Case4 - Key Presses
+2025-11-03 09:32:17 - INFO - You entered: ENTER
+2025-11-03 09:32:33 - INFO - Browser closed 
+
+2025-11-03 14:33:33 - INFO - Opened the website: https://the-internet.herokuapp.com/
+2025-11-03 14:33:43 - INFO - Wait duration: 10.08 seconds
+2025-11-03 14:33:43 - INFO - Explicit wait completed in 10.08 seconds for element 'content'.
+2025-11-03 14:33:43 - INFO - Test Case1 - Form Authentication
+2025-11-03 14:33:56 - INFO - Correct error validation - Your username is invalid!
+2025-11-03 14:34:07 - INFO - Successfully logged in and login message - 
+            You logged into a secure area!
+            ×
+          
+2025-11-03 14:34:08 - INFO - Successfully logged out and logout message - 
+            You logged out of the secure area!
+            ×
+          
+2025-11-03 14:34:09 - INFO - Test Case2 - JQuery UI Menus
+2025-11-03 14:34:28 - INFO - As expected file as been downloaded!
+2025-11-03 14:34:38 - INFO - Test Case4 - Checkboxes
+2025-11-03 14:34:39 - INFO - Checkboxes 1 checked as expected!
+2025-11-03 14:34:39 - INFO - Checkboxes 2 checked as expected!
+2025-11-03 14:34:39 - INFO - Test Case4 - Key Presses

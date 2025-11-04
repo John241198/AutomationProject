@@ -106,14 +106,23 @@ helper.homePageReturn(drive, retriveCount=1)
 logging.info("Test Case4 - Key Presses")
 drive.execute_script("document.getElementsByTagName('a')[31].click()")
 helper.SetExplicit(drive, timeout_s=20, element="content", expectedCondition="visibleOfElementLocated",locatorType="id")
-#target
-helper.EnterValue(drive, By.ID, "target", "sample text")
-time.sleep(10)
-ActionChains(drive).send_keys(Keys.ENTER).perform()
-exitVal = drive.execute_script("return document.getElementById('result').innerText")
-if exitVal != Keys.ENTER:
+exitVal=None
+for i in range(5):
+    if "ENTER" not in drive.execute_script("return document.getElementById('result').innerText"):
+        ActionChains(drive).send_keys(Keys.ENTER).perform()
+        time.sleep(10)
+    else:break
+logging.info(drive.execute_script("return document.getElementById('result').innerText"))
+if "ENTER" not in drive.execute_script("return document.getElementById('result').innerText"):
     raise Exception("Exit value was not entered!")
+helper.homePageReturn(drive, retriveCount=1)
 
+
+
+#Test Case5 - Multiple Windows
+logging.info("Test Case5 - Multiple Windows")
+drive.execute_script("document.getElementsByTagName('a')[33].click()")
+helper.SetExplicit(drive, timeout_s=20, element="content", expectedCondition="visibleOfElementLocated",locatorType="id")
 
 
 drive.quit()
