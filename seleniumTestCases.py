@@ -123,8 +123,9 @@ helper.homePageReturn(drive, retriveCount=1)
 logging.info("Test Case5 - Multiple Windows")
 drive.execute_script("document.getElementsByTagName('a')[33].click()")
 helper.SetExplicit(drive, timeout_s=20, element="content", expectedCondition="visibleOfElementLocated",locatorType="id")
-
-
+drive.execute_script("document.getElementsByTagName('a')[1].click()")
+drive.switch_to.window('')
+helper.homePageReturn(drive, retriveCount=1)
 drive.quit()
 logging.info("Browser closed \n")
 
